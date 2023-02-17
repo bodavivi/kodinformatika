@@ -1,0 +1,6 @@
+CREATE TABLE URLS
+(
+    id         int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    SOURCE_URL varchar(255) UNIQUE,
+    SHORT_URL  varchar(255) UNIQUE
+);
